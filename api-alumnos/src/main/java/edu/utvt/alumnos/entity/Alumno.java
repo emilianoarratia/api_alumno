@@ -37,7 +37,7 @@ public class Alumno {
      * Se genera automáticamente mediante identidad de secuencia.
      */
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     /**
